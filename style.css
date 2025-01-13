@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+
+  .card {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .card[data-index="0"], .card[data-index="6"], .card[data-index="9"] { background-color: cornflowerblue; }
+  .card[data-index="1"], .card[data-index="7"], .card[data-index="8"], .card[data-index="13"] { background-color: lightgoldenrodyellow; }
+  .card[data-index="2"], .card[data-index="5"], .card[data-index="11"]  { background-color: lightcoral; }
+  .card[data-index="3"], .card[data-index="4"], .card[data-index="10"], .card[data-index="12"] { background-color: lightgreen; }
+
+ 
+
+  
