@@ -18,21 +18,14 @@
   }
 
   .hidden {
-    visibility: none;
+    visibility: hidden;
   }
 
-  #bird1{
-    background-color: lightcoral;
-  }
+  .card[data-index="0"], .card[data-index="6"], .card[data-index="9"] { background-color: cornflowerblue; }
+  .card[data-index="1"], .card[data-index="7"], .card[data-index="8"], .card[data-index="13"] { background-color: lightgoldenrodyellow; }
+  .card[data-index="2"], .card[data-index="5"], .card[data-index="11"]  { background-color: lightcoral; }
+  .card[data-index="3"], .card[data-index="4"], .card[data-index="10"], .card[data-index="12"] { background-color: lightgreen; }
 
-  #bird2{
-    background-color: cornflowerblue;
-  }
+ 
 
-  #bird3{
-    background-color: lightgoldenrodyellow;
- }
-
-  #bird4{
-    background-color:lightgreen ;
-  }
+  
