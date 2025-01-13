@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+
+  .card {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .hidden {
+    visibility: none;
+  }
+
+  #bird1{
+    background-color: lightcoral;
+  }
+
+  #bird2{
+    background-color: cornflowerblue;
+  }
+
+  #bird3{
+    background-color: lightgoldenrodyellow;
+ }
+
+  #bird4{
+    background-color:lightgreen ;
+  }
