@@ -7,7 +7,7 @@ cards.forEach(card => {
             card.computedStyleMap.pointerEvents = 'auto';
         } else {
             card.classList.add('hidden');
-            card.style.pointerEvents = 'none';
+            card.style.pointerEvents = 'hidden';
         }
     });
 });
